@@ -8,7 +8,7 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/app/themes/sage",
+  "publicPath": "/web/app/themes/festival",
   "devUrl": "localhost/festival/web",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",

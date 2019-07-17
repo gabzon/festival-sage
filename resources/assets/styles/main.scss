@@ -12,14 +12,23 @@
 // @import "~some-node-module";
 
 /** Import theme styles */
+@import "common/mixins";
 @import "common/global";
+@import "common/page";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
 @import "components/wp-classes";
+@import "components/navbar";
+@import "components/portfolio";
+@import "components/services";
+@import "components/team";
+@import "components/timeline";
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+@import "layouts/contact";
+@import "layouts/masthead";
