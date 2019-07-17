@@ -33,7 +33,7 @@
           @endphp
 
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <a class="portfolio-link" href="{{ get_permalink() }}">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
@@ -43,7 +43,7 @@
             </a>
             <div class="portfolio-caption">
               <h4>{{ get_the_title() }}</h4>
-              <p class="text-muted">Illustration</p>
+              <p class="text-muted">Cuba</p>
             </div>
           </div>
 
